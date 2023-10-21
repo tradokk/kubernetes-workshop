@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-nestjs-kubernetes
+  name: 2-example-nestjs-kubernetes
 spec:
   selector:
     matchLabels:
