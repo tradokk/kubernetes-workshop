@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: example-nginx-ingress
+  labels:
+    name: example-nginx-ingress
+spec:
+  rules:
+    - host: test.local
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: example-nginx
+                port:
+                  number: 3000

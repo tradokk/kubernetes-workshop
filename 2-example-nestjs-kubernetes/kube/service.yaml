@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nestjs-kubernetes
+spec:
+  selector:
+    app: 2-example-nestjs-kubernetes
+  ports:
+    - port: 3000
+      targetPort: 80
