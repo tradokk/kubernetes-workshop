@@ -1,5 +1,6 @@
 # Kubernetes and Terraform Workshop Example Repository
 
+
 Welcome to the Kubernetes and Terraform Workshop example repository! This repository contains multiple examples of deploying applications on Kubernetes using Terraform. Each example focuses on different scenarios, from simple deployments to more complex configurations. Whether you are new to Kubernetes and Terraform or looking to expand your knowledge, these examples will help you understand the basics and beyond.
 
 ## Table of Contents
