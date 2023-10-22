@@ -5,16 +5,16 @@ Welcome to the Kubernetes and Terraform Workshop example repository! This reposi
 
 ## Table of Contents
 
-1. [Example 1: NGINX Deployment](./1-example-nginx/README.md)
+1. [Example 1: NGINX Deployment](./example-1-nginx/README.md)
 2. [Example 2: NestJS Application on Kubernetes](./2-example-nestjs-kubernetes/README.md)
-3. [Example 3: NestJS Application on Kubernetes with Helm](./3-example-nestjs-helm/README.md)
-4. [Example 4: NestJS Application on Kubernetes with Terraform](./4-example-nestjs-terraform/README.md)
-5. [Example 5: NestJS Application on Kubernetes with Terraform and CDK for Terraform](./5-example-nestjs-terraform-cdk/README.md)
+3. [Example 3: NestJS Application on Kubernetes with Helm](./example-3-nestjs-helm/README.md)
+4. [Example 4: NestJS Application on Kubernetes with Terraform](./example-4-nestjs-terraform/README.md)
+5. [Example 5: NestJS Application on Kubernetes with Terraform and CDK for Terraform](./example-5-nestjs-terraform-cdk/README.md)
 6. [General README](./README.md)
 
 ## Example 1: NGINX Deployment
 
-This example demonstrates a basic NGINX deployment on Kubernetes using Terraform. It includes configuration files for creating a Kubernetes namespace, a pod, a deployment, a service, and an ingress. You can find detailed instructions and usage information in the [example 1 README](./1-example-nginx/README.md).
+This example demonstrates a basic NGINX deployment on Kubernetes using Terraform. It includes configuration files for creating a Kubernetes namespace, a pod, a deployment, a service, and an ingress. You can find detailed instructions and usage information in the [example 1 README](./example-1-nginx/README.md).
 
 ## Example 2: NestJS Application on Kubernetes
 
@@ -22,15 +22,15 @@ This example focuses on deploying a NestJS application on Kubernetes. It provide
 
 ## Example 3: NestJS Application on Kubernetes with Helm
 
-In this example, you will deploy a NestJS application on Kubernetes using Helm, a package manager for Kubernetes. The [example 3 README](./3-example-nestjs-helm/README.md) provides detailed information on the setup and deployment process.
+In this example, you will deploy a NestJS application on Kubernetes using Helm, a package manager for Kubernetes. The [example 3 README](./example-3-nestjs-helm/README.md) provides detailed information on the setup and deployment process.
 
 ## Example 4: NestJS Application on Kubernetes with Terraform
 
-This example demonstrates deploying a NestJS application on Kubernetes using Terraform. You will find Docker and Kubernetes configuration files, as well as a Terraform setup. Learn how to do this in the [example 4 README](./4-example-nestjs-terraform/README.md).
+This example demonstrates deploying a NestJS application on Kubernetes using Terraform. You will find Docker and Kubernetes configuration files, as well as a Terraform setup. Learn how to do this in the [example 4 README](./example-4-nestjs-terraform/README.md).
 
 ## Example 5: NestJS Application on Kubernetes with Terraform and CDK for Terraform
 
-In this advanced example, you'll deploy a NestJS application on Kubernetes using Terraform and the CDK for Terraform. It includes constructs and stacks for a more complex infrastructure setup. You can explore this in the [example 5 README](./5-example-nestjs-terraform-cdk/README.md).
+In this advanced example, you'll deploy a NestJS application on Kubernetes using Terraform and the CDK for Terraform. It includes constructs and stacks for a more complex infrastructure setup. You can explore this in the [example 5 README](./example-5-nestjs-terraform-cdk/README.md).
 
 ## General README
 
