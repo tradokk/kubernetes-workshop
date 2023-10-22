@@ -1,11 +1,15 @@
 {
   "language": "typescript",
   "app": "npx ts-node main.ts",
-  "projectId": "0b1badb0-08ec-454a-9d7c-f42e8adc5a65",
+  "projectId": "ba48da09-d3e5-4b9a-b449-50f649b3e996",
   "sendCrashReports": "false",
-  "terraformProviders": [],
+  "terraformProviders": [
+    "kubernetes",
+    "kreuzwerker/docker@3.0.2",
+    "hashicorp/helm@2.10.1",
+    "hashicorp/local@2.4.0",
+    "hashicorp/template@2.2.0"
+  ],
   "terraformModules": [],
-  "context": {
-
-  }
+  "context": {}
 }

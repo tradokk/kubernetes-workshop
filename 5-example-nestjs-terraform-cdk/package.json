@@ -1,5 +1,5 @@
 {
-  "name": "4-example-nestjs-terraform",
+  "name": "5-example-nestjs-terraform-cdk",
   "version": "1.0.0",
   "main": "main.js",
   "types": "main.ts",

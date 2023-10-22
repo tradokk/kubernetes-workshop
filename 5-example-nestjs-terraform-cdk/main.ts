@@ -1,14 +1,6 @@
-import { Construct } from "constructs";
-import { App, TerraformStack } from "cdktf";
+import { App } from 'cdktf'
+import LocalKubernetesStack from './infra/stacks/local-kubernetes-stack'
 
-class MyStack extends TerraformStack {
-  constructor(scope: Construct, id: string) {
-    super(scope, id);
-
-    // define resources here
-  }
-}
-
-const app = new App();
-new MyStack(app, "4-example-nestjs-terraform");
-app.synth();
+const app = new App()
+new LocalKubernetesStack(app, '5-example-nestjs-terraform-cdk')
+app.synth()
