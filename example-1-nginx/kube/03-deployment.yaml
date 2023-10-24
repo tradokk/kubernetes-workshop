@@ -1,18 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: 1-nginx-deployment
+  name: example-1-nginx-deployment
 spec:
+  replicas: 3
   selector:
     matchLabels:
-      app: 1-nginx-deployment
+      app: example-1-nginx-deployment
   template:
     metadata:
       labels:
-        app: 1-nginx-deployment
+        app: example-1-nginx-deployment
     spec:
       containers:
-        - name: 1-nginx-deployment
+        - name: example-1-nginx-deployment
           image: nginx:latest
           resources:
             limits:

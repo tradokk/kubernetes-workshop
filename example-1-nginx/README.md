@@ -10,7 +10,7 @@
 
 ## Introduction
 
-In this workshop, you'll learn how to deploy and manage applications in a Kubernetes cluster and automate various tasks using Makefiles. Kubernetes is a powerful container orchestration system, and Makefiles can simplify and streamline your development and deployment workflows.
+In this workshop, you'll learn how to deploy and manage applications in a Kubernetes cluster. Kubernetes is a powerful container orchestration system, and many tools allow you to have a better expirience. In this case, we use just kubernetes
 
 ## Getting Started
 
@@ -47,17 +47,41 @@ You can use the provided Kubernetes YAML files and Makefile in the `./kube` dire
 
 To deploy a resource, you can use the `kubectl apply` command like this:
 
+deploy all kubernetes resources to the cluster (Container Groups)
+
 ```shell
 kubectl apply -f ./kube/
 ```
 
-Similarly, you can use the Makefile to automate various tasks. For example:
+### Commands for presentation
+
+get the running POD's (Container Groups)
 
 ```shell
-# Deploy the entire Kubernetes setup defined in the YAML files
-make deploy
+kubectl get pods
+```
 
-# Delete all deployed resources
+get the running deployments
 
+```shell
+kubectl get deployments
+```
 
+get the deployed services (Load Balancers)
+
+```shell
+kubectl apply -f ./kube/
+```
+
+delete a pod (Container Groups)
+
+```shell
+kubectl delete pod <pod-name>
+```
+
+for ppl that dont want to work with kubectl
+
+```shell
+make deploy  # Deploy the application to kubernete
+make destroy # Delete all kubernetes resources
 ```

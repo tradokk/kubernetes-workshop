@@ -1,3 +1,4 @@
-apiVersion: apps/v1
+apiVersion: v1
 kind: Namespace
-metadata: s
+metadata:
+  name: example-1
