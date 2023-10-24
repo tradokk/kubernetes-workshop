@@ -6,7 +6,7 @@ Example 1 (example-1-nginx):
 - [X] Documentation (ReadME)
 - [X] Powerpoint Integration
 
-Example 2 (2-example-nestjs-kubernetes): 
+Example 2 (example-2-nestjs-kubernetes): 
 - [X] Deployment
 - [X] Documentation (ReadME)
 - [ ] Powerpoint Integration

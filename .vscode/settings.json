@@ -1,7 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "example-1-nginx",
-        "2-example-nestjs-kubernetes",
+        "example-2-nestjs-kubernetes",
         "example-3-nestjs-helm",
         "example-4-nestjs-terraform",
         "example-5-nestjs-terraform-cdk"
