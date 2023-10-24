@@ -21,6 +21,8 @@ export default class LocalKubernetesStack extends TerraformStack {
 
     new DockerProvider(this, 'docker', {})
 
+
+    console.log(process.env.NODE_ENV)
     const backendImage = new BackendImage(
       this,
       'example-nestjs-terraform-cdk',

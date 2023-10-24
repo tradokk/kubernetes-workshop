@@ -27,6 +27,10 @@ spec:
       serviceAccountName: {{ include "example-nestjs-helm.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      volumes:
+        - name: dev-volume 
+          hostPath:
+            path: {{ .Values.dev.mountPoint }}
       containers:
         - name: {{ .Chart.Name }}
           securityContext:

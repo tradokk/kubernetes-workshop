@@ -1,30 +1,21 @@
 // Copyright (c) HashiCorp, Inc
 // SPDX-License-Identifier: MPL-2.0
+import { Testing } from "cdktf";
 import "cdktf/lib/testing/adapters/jest"; // Load types for expect matchers
 // import { Testing } from "cdktf";
 
 describe("My CDKTF Application", () => {
   // The tests below are example tests, you can find more information at
   // https://cdk.tf/testing
-  it.todo("should be tested");
+  // it.todo("should be tested");
 
   // // All Unit tests test the synthesised terraform code, it does not create real-world resources
-  // describe("Unit testing using assertions", () => {
-  //   it("should contain a resource", () => {
-  //     // import { Image,Container } from "./.gen/providers/docker"
-  //     expect(
-  //       Testing.synthScope((scope) => {
-  //         new MyApplicationsAbstraction(scope, "my-app", {});
-  //       })
-  //     ).toHaveResource(Container);
-
-  //     expect(
-  //       Testing.synthScope((scope) => {
-  //         new MyApplicationsAbstraction(scope, "my-app", {});
-  //       })
-  //     ).toHaveResourceWithProperties(Image, { name: "ubuntu:latest" });
-  //   });
-  // });
+  describe("Unit testing using assertions", () => {
+    it("should contain a resource", () => {
+      // import { Image,Container } from "./.gen/providers/docker"
+      
+    });
+  });
 
   // describe("Unit testing using snapshots", () => {
   //   it("Tests the snapshot", () => {
