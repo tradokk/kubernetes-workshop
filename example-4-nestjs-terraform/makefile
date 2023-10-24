@@ -1,6 +1,6 @@
 deploy:
-	docker build -t "example-3-nestjs-helm:latest" .
-	helm install example-3-nestjs-helm ./.helm 
+	docker build -t "example-4-nestjs-terraform:latest" .
+	helm install example-4-nestjs-terraform ./.helm 
 
 destroy:
-	helm uninstall example-3-nestjs-helm
+	helm uninstall example-4-nestjs-terraform

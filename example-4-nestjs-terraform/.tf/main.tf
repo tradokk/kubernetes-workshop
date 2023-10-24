@@ -24,7 +24,7 @@ resource "docker_image" "nest_image" {
 
 
 resource "helm_release" "nestjs_backend" {
-  name  = "nestjs-terraform"
+  name  = "example-4"
   chart = "../.helm"
   depends_on = [ docker_image.nest_image ]
 
