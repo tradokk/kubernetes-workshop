@@ -1,7 +1,7 @@
 deploy:
-	docker build -t "2-example-nestjs-kubernetes:latest" .
+	docker build -t "example-2-nestjs-kubernetes:latest" .
 	kubectl apply -f ./kube/
 
 destroy:
-	kubectl remove -f ./kube/
-	docker image rm "2-example-nestjs-kubernetes:latest"
+	kubectl delete -f ./kube/
+	docker image rm "example-2-nestjs-kubernetes:latest"

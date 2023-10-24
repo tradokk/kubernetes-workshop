@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: 2-example-nestjs-kubernetes
+  name: example-2-nestjs-kubernetes
 spec:
   selector:
     matchLabels:
-      app: 2-example-nestjs-kubernetes
+      app: example-2-nestjs-kubernetes
   template:
     metadata:
       labels:
-        app: 2-example-nestjs-kubernetes
+        app: example-2-nestjs-kubernetes
     spec:
       containers:
-        - name: 2-example-nestjs-kubernetes
-          image: 2-example-nestjs-kubernetes
+        - name: example-2-nestjs-kubernetes
+          image: example-2-nestjs-kubernetes
           imagePullPolicy: Never
           resources:
             limits:

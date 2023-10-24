@@ -48,7 +48,7 @@ $ npm run start:prod
 ## Deploying to local kubernetes
 ```bash
 # development
-$ docker build -t '2-example-nestjs-kubernetes:latest' .
+$ docker build -t 'example-2-nestjs-kubernetes:latest' .
 
 # create the resources
 $ kubectl create -f ./kube
